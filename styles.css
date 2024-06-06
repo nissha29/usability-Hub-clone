@@ -85,7 +85,12 @@ ul{
     background-image: url(./assets/asset\ 28.png);
     background-size: 300px;
     width: 100vw;
-    height: 50px;
+    height: 60px;
+}
+
+.top-banner{
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .banner-text{
@@ -132,6 +137,7 @@ ul{
 
 .main-nav{
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .company-logo img{
@@ -153,17 +159,20 @@ ul{
 
 .header-text{
     padding: 20px;
+    flex-wrap: wrap;
+}
+
+.header-image{
+    flex-wrap: wrap;
 }
 
 .header-text p{
     color: var(--primary-text-color);
-    flex-wrap: wrap;
 }
 
 .header-image img{
     width: 600px;
     height: 450px;
-    flex-wrap: wrap;
 }
 
 .header-button{
@@ -186,7 +195,7 @@ ul{
 .companies{
     padding: 10px 35px;
     margin-top: 5px;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     align-items:center;
 }
 .amazon{
@@ -359,6 +368,7 @@ ul{
     flex-direction: column;
     gap: 30px;
     width: 1300px;
+    flex-wrap: wrap;
 }
 
 .cta-container p{
